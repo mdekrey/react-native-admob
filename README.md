@@ -1,6 +1,6 @@
-# react-native-admob [![npm](https://img.shields.io/npm/v/react-native-admob.svg)](https://www.npmjs.com/package/react-native-admob) [![npm (next)](https://img.shields.io/npm/v/react-native-admob/next.svg)](https://www.npmjs.com/package/react-native-admob)
+# react-native-admob
 
-### ⚠️ Please note, the master branch tracks development of version 2 of this library, which is currently in beta. For version 1 please check out the [1.x branch](https://github.com/sbugert/react-native-admob/tree/1.x).
+### ⚠️ Please note, this master branch tracks a collection of pull requests while the main fork is lacking active maintainers. See [#399](https://github.com/sbugert/react-native-admob/issues/399) for more information.
 
 A react-native module for Google AdMob Banners, Interstitials, and Rewarded Videos, and also DFP Banners.
 
@@ -12,11 +12,15 @@ You can use npm or Yarn to install the latest beta version:
 
 **npm:**
 
-    npm i --save react-native-admob@next
+    npm i --save mdekrey/react-native-admob#<commit-hash-here>
 
 **Yarn:**
 
-    yarn add react-native-admob@next
+    yarn add mdekrey/react-native-admob#<commit-hash-here>
+
+You can get the commit-hash from the "Latest commit" section the master branch.
+
+> Note that this is NOT published to the npm repository, as this is a fork of the original project. See [#399](https://github.com/sbugert/react-native-admob/issues/399) for more information.
 
 In order to use this library, you have to link it to your project first. There's excellent documentation on how to do this in the [React Native Docs](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content).
 
